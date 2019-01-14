@@ -1,6 +1,18 @@
+nav
+{
+width: 100%;
+}
+@media (max-width:500px)
+{
+    .nav 
+    {
+        background-color: green;
+    }
+   
+}
 h1
 {
-    text-align: center;
+text-align: center;
   font-weight: bold;  
 }
 button
@@ -11,3 +23,29 @@ button
 {
     background-color: rgb(218, 179, 107);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(218, 179, 107);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  
+  .active {
+    background-color: rgb(216, 156, 45);
+  }
